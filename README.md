@@ -1,13 +1,13 @@
 "# SpringIOC-JPA-SpringSecurity"
 Ce projet est une application de gestion des patients développée avec Spring Framework, en utilisant Spring IOC (Inversion of Control), Spring Data, et Spring Security.
-
+g
 Fonctionnalités :
-Enregistrement de Patients: Permet d'enregistrer de nouveaux patients.
-Consultation de Patients: Permet de consulter la liste des patients enregistrés dans la base de données.
-Authentification et Autorisation: Utilise Spring Security pour gérer l'authentification des utilisateurs et l'accès aux fonctionnalités en fonction des rôles définis.
+-> Enregistrement de Patients: Permet d'enregistrer de nouveaux patients.
+-> Consultation de Patients: Permet de consulter la liste des patients enregistrés dans la base de données.
+-> Authentification et Autorisation: Utilise Spring Security pour gérer l'authentification des utilisateurs et l'accès aux fonctionnalités en fonction des rôles définis.
 
 
-Configuration
+Configuration:
 Clonez ce dépôt sur votre machine locale :
 
 git clone https://github.com/SoulaimaneCherkaoui/SpringIOC-JPA-SpringSecurity.git
@@ -15,7 +15,7 @@ Importez le projet dans votre IDE préféré (Eclipse, IntelliJ IDEA, etc.).
 
 Configurez votre base de données MySQL dans le fichier src/main/resources/application.properties. Assurez-vous d'adapter les informations de connexion à votre environnement.
 
-properties
+properties:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/nom_base_donnees
 spring.datasource.username=votre_nom_utilisateur
